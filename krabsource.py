@@ -11,9 +11,9 @@ from geopy.distance import geodesic
 import numpy as np
 import cv2
 
-import pathlib
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+#import pathlib
+#temp = pathlib.PosixPath
+#pathlib.PosixPath = pathlib.WindowsPath
 
 # Initialize Flask app
 app = Flask(__name__)
